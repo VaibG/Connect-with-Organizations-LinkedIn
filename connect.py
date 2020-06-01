@@ -6,7 +6,7 @@ import time
 ORG_NAME = "" #www.linkedin.com/company/ORG_NAME
 EMAIL = "" 
 PASSWORD = ""
-
+MESSAGE = 'Hi, we are in the same organization and I would like to connect with you!'
 
 
 driver = webdriver.Chrome("./chromedriver")
@@ -40,7 +40,7 @@ for connect in connectbtns:
     driver.find_element_by_class_name('mr1').click()
 
     time.sleep(random.random())
-    driver.find_element_by_name('message').send_keys('Hi, we are in the same organization and I would like to connect with you!')
+    driver.find_element_by_name('message').send_keys(MESSAGE)
 
     time.sleep(random.random())
     driver.find_element_by_class_name('ml1').click()
