@@ -3,7 +3,7 @@ from selenium.webdriver.common.keys import Keys
 import random
 import time
 
-ORG_NAME = "mobile-developers-of-berkeley" #www.linkedin.com/company/ORG_NAME
+ORG_NAME = "berkeley-codeology" #www.linkedin.com/company/ORG_NAME
 EMAIL = "" 
 PASSWORD = ""
 MESSAGE = 'Hi, we are in the same organization and I would like to connect with you!'
